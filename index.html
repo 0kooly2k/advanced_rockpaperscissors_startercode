@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-      <title>RPS Game</title>
-      <!-- Link CSS here -->
-      
-      <!-- Link JQuery here -->
-      
-      <!-- Link Javascript File here -->
-      
-      <!-- Latest compiled and minified Bootstrap CSS -->
-      
-  </head>
+<head>
+  <title>RPS Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <link rel="style.css">
+</head>
 
-  <body>
-      <!-- TASK 1: In the div below. 
+<body>
+  <!-- TASK 1: In the div below. 
         1. In a header tag, add a title.
         2. In a paragraph tag, add instructions on how to play the game.
         3. Add a RPS image.
@@ -22,14 +19,29 @@
         5. Add divs to record User Choice and Computer Choice.
         6. Add a div to record the Winner.
      -->
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Rock Paper Siccors</h1>
+      <img src="http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w">
+
+    </div>
     <div class="container text-center">
-    
-      
+      <input> <button>Shoot!</button>
+      <div class="row">
+    <div class="col-sm">
+      <p id='your'>Your Choice</p>
+    </div>
+    <div class="col-sm">
+      <p id='comp'>Computer's Choice</p>
+    </div>
+  </div>
 
 
-    
+
+
+
     </div>
 
-  </body>
+</body>
 
 </html>
